@@ -18,6 +18,7 @@
 
         <?php }; ?>
 
+        <a><?php get_footer(); ?></a>
     </div>
 
 

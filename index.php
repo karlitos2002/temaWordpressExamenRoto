@@ -23,15 +23,7 @@
 </div>
 </main>
 </body>
-<footer class="blog-footer">
-    <div class="contariner">
-        <div class="row">
-            <div class="col-md-6"><?php echo get_bloginfo("description") ?> </div>
-            <div class="col-md-6">
-               Menú
-            </div>
-        </div>
-    </div>
-</footer>
 
+<?php get_single_template() ?>
+<?php get_footer(); ?>
 </html>
